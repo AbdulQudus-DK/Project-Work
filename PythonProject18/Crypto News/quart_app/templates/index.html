@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto News</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 20px; }
+        .article { background: white; padding: 15px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        .title { font-size: 1.2em; margin-bottom: 5px; }
+        .source { color: #777; font-size: 0.9em; }
+        .summary { margin-top: 10px; }
+        a { text-decoration: none; color: #333; }
+        a:hover { color: #007BFF; }
+    </style>
+</head>
+<body>
+    <h1>Latest Crypto News</h1>
+    {% for article in articles %}
+        <div class="article">
+            <div class="title"><a href="{{ article.link }}" target="_blank">{{ article.title }}</a></div>
+            <div class="source">{{ article.source }} | {{ article.published }}</div>
+            <div class="summary">{{ article.ai_summary }}</div>
+        </div>
+    {% else %}
+        <p>No articles found.</p>
+    {% endfor %}
+</body>
+</html>

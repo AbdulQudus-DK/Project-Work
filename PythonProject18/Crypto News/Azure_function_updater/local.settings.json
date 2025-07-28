@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "MONGO_URI": "mongodb+srv://splexdb:Sp1exx-db@splex-godb.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000",
+    "OPENAI_API_KEY": "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\n"
+  }
+}

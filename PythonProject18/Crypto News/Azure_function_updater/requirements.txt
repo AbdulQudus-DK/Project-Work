@@ -1,0 +1,5 @@
+azure-functions
+motor
+feedparser
+langchain-openai
+python-dotenv
