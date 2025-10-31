@@ -1,0 +1,11 @@
+Crypto Visual Automation System
+Automated crypto-news video generator that creates captioned image clips with background music and posts them to Telegram using FastAPI, MongoDB, MoviePy, and n8n.
+
+RSS Feed Summarizer
+Built an RSS summarization tool using Feedparser and LangChain’s ChatOpenAI to extract, summarize, and store news data in MongoDB with retry and deduplication logic.
+
+Quart + SQLAlchemy CRUD Template
+Developed a lightweight backend starter template with async CRUD APIs using Quart and SQLAlchemy for scalable and testable projects.
+
+Telegram Automation Bot
+Implemented a Flask-based Telegram bot that posts automated content and updates directly to Telegram channels via webhooks.
